@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Furmate - Smart Pet Companion</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: "Segoe UI", sans-serif;
+      line-height: 1.6;
+      background-color: #fefefe;
+      color: #333;
+    }
+
+    header {
+      background-color: #f8f9fa;
+      padding: 15px 20px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #333;
+      margin: 0 10px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #00aaff;
+    }
+
+    .hero {
+      background-color: #dff6ff;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 1.2em;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    section h2 {
+      font-size: 1.8em;
+      margin-bottom: 20px;
+      border-left: 5px solid #00aaff;
+      padding-left: 10px;
+    }
+
+    footer {
+      background-color: #f1f1f1;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #555;
+      margin-top: 40px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .contact-form button {
+      margin-top: 10px;
+      padding: 10px 20px;
+      background-color: #00aaff;
+      border: none;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .contact-form button:hover {
+      background-color: #008ecc;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin: 10px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 導覽列 -->
+  <nav>
+    <div><strong>Furmate</strong></div>
+  </nav>
+  
+
+  <!-- 首頁 Hero 區塊 -->
+  <div class="hero">
+    <h1>Furmate</h1>
+    <p>Bringing technology closer to pets and creating your furry guardian.</p>
+  </div>
+
+  <!-- 關於我們 -->
+  <section id="about">
+    <h2>About us</h2>
+    <p>Furmate is an innovative startup dedicated to developing pet technology products. Through smart wearable devices, we aim to help pet owners monitor their pets' health and daily activities anytime, anywhere. We believe that technology can be the gentlest guardian of our furry companions.</p>
+  </section>
+
+  <!-- 產品介紹 -->
+  <section id="product">
+    <h2>Our products</h2>
+    <ul>
+      <h3>Smart Pet Collar</h3>
+      <h3>Smart Wristband</h3>
+    </ul>
+    <a href="product.html">More information</a>
+  </section>
+
+  <!-- 最新消息 -->
+  <section id="news">
+    <h2>Furmate news</h2>
+    <div class="news-list">
+      <!-- 第 1 則新聞 -->
+      <div class="news-item">
+        <img src="images/dogs.png" style="width: 60%; max-width: 600px; height: auto;" alt="新聞圖片"> <!-- 改成相對路徑或網址 -->
+        <div class="news-content">
+          <h3>
+            <a href="news.html">
+              "PawSee Smart Pet Collar" makes a stunning debut: Using technology to protect your furry friends every day
+            </a>
+          </h3>
+          <p>"PawSee" allows pets to explore freely while owners can protect them with peace of mind.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 聯絡我們 -->
+  <section id="contact">
+    <h2>Contact us</h2>
+    <form class="contact-form">
+      <p>📧 Mail: Furmate2025@gmail.com</p>
+      <p>📍 Address: 700, Kaohsiung University Rd., Nanzih District, Kaohsiung 811, Taiwan, R.O.C.</p>
+    </form>
+  </section>
+
+  <!-- 頁腳 -->
+  <footer>
+    &copy; 2025 Furmate Inc. all rights reserved.
+  </footer>
+
+</body>
+</html>
