@@ -26,8 +26,8 @@
 
     nav {
       display: flex;
-      justify-content: space-between;
       align-items: center;
+      gap: 10px;
     }
 
     nav a {
@@ -67,6 +67,12 @@
       margin-bottom: 20px;
       border-left: 5px solid #00aaff;
       padding-left: 10px;
+    }
+
+    .logo-title {
+      display: flex;
+      align-items: center;
+      gap: 10px;
     }
 
     footer {
@@ -111,10 +117,11 @@
 <body>
 
   <!-- 導覽列 -->
-  <nav>
-    <div><strong>Furmate</strong></div>
-  </nav>
-  
+<nav>
+  <img src="images/logo.jpg" style="width: 5%; max-width: 60px; height: auto;" alt="公司商標">
+  <div><h2><strong>Furmate</strong></h2></div>
+</nav>
+
 
   <!-- 首頁 Hero 區塊 -->
   <div class="hero">
@@ -130,12 +137,17 @@
 
   <!-- 產品介紹 -->
   <section id="product">
-    <h2>Our products</h2>
+    <h2>Our products & APP</h2>
     <ul>
-      <h3>Smart Pet Collar</h3>
-      <h3>Smart Wristband</h3>
+      <h3><strong><a href="collar.html">Smart Pet Collar</a></strong></h3>
+      <img src="images/collar.jpg" style="width: 40%; max-width: 600px; height: auto;" alt="產品圖片">
+      <h3><strong><a href="band.html">Smart Wristband</a></strong></h3>
+      <img src="images/band.jpg" style="width: 40%; max-width: 600px; height: auto;" alt="產品圖片">
+      <div class="logo-title">
+        <img src="images/logo.jpg" style="width: 5%; max-width: 60px; height: auto;" alt="APP商標">
+        <h3 style="margin: 0;"><strong><a href="app.html">Furmate One (Download here)</a></strong></h3>
+      </div>
     </ul>
-    <a href="product.html">More information</a>
   </section>
 
   <!-- 最新消息 -->
@@ -148,10 +160,10 @@
         <div class="news-content">
           <h3>
             <a href="news.html">
-              "PawSee Smart Pet Collar" makes a stunning debut: Using technology to protect your furry friends every day
+              "Furmate Smart Pet Collar" makes a stunning debut: Using technology to protect your furry friends every day
             </a>
           </h3>
-          <p>"PawSee" allows pets to explore freely while owners can protect them with peace of mind.</p>
+          <p>"Furmate" allows pets to explore freely while owners can protect them with peace of mind.</p>
         </div>
       </div>
     </div>
