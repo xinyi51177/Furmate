@@ -6,121 +6,143 @@
   <title>Furmate - Smart Pet Companion</title>
   <style>
     * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-    body {
-      font-family: "Segoe UI", sans-serif;
-      line-height: 1.6;
-      background-color: #fefefe;
-      color: #333;
-    }
+/* 全站預設字體與顏色 */
+body {
+  font-family: "Segoe UI", sans-serif;
+  line-height: 1.6;
+  background-color: #fefefe;
+  color: #333;
+}
 
-    header {
-      background-color: #f8f9fa;
-      padding: 15px 20px;
-      border-bottom: 1px solid #ddd;
-    }
+/* 只針對 section 和 footer 中的連結設計藍色＋底線 */
+section a,
+footer a {
+  color: blue;
+  text-decoration: underline;
+}
 
-    nav {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-    }
+/* 導覽列樣式 */
+header {
+  background-color: #f8f9fa;
+  padding: 15px 20px;
+  border-bottom: 1px solid #ddd;
+}
 
-    nav a {
-      text-decoration: none;
-      color: #333;
-      margin: 0 10px;
-      font-weight: bold;
-    }
+nav {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
 
-    nav a:hover {
-      color: #00aaff;
-    }
+/* 保持導覽列的連結為深色粗體＋ hover 效果 */
+nav a {
+  text-decoration: none;
+  color: #333;
+  margin: 0 10px;
+  font-weight: bold;
+}
 
-    .hero {
-      background-color: #dff6ff;
-      padding: 60px 20px;
-      text-align: center;
-    }
+nav a:hover {
+  color: #00aaff;
+}
 
-    .hero h1 {
-      font-size: 2.5em;
-      margin-bottom: 10px;
-    }
+/* Hero 區塊 */
+.hero {
+  background-color: #dff6ff;
+  padding: 60px 20px;
+  text-align: center;
+}
 
-    .hero p {
-      font-size: 1.2em;
-    }
+.hero h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
 
-    section {
-      padding: 40px 20px;
-      max-width: 900px;
-      margin: auto;
-    }
+.hero p {
+  font-size: 1.2em;
+}
 
-    section h2 {
-      font-size: 1.8em;
-      margin-bottom: 20px;
-      border-left: 5px solid #00aaff;
-      padding-left: 10px;
-    }
+/* Section 區塊 */
+section {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
 
-    .logo-title {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-    }
+section h2 {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+  border-left: 5px solid #00aaff;
+  padding-left: 10px;
+}
 
-    footer {
-      background-color: #f1f1f1;
-      text-align: center;
-      padding: 20px;
-      font-size: 0.9em;
-      color: #555;
-      margin-top: 40px;
-    }
+/* 圖文並排 */
+.logo-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
 
-    .contact-form input,
-    .contact-form textarea {
-      width: 100%;
-      padding: 10px;
-      margin-top: 10px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-    }
+/* 頁腳 */
+footer {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+  color: #555;
+  margin-top: 40px;
+}
 
-    .contact-form button {
-      margin-top: 10px;
-      padding: 10px 20px;
-      background-color: #00aaff;
-      border: none;
-      color: white;
-      border-radius: 5px;
-      cursor: pointer;
-    }
+/* 表單元件 */
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
 
-    .contact-form button:hover {
-      background-color: #008ecc;
-    }
-    img {
-      max-width: 100%;
-      height: auto;
-      border-radius: 10px;
-      margin: 10px 0;
-    }
-    .select-none {
-      user-select: none;
-    }
-    .evasion {
-      transition: transform 0.2s ease;
-    }
-    .evasion:hover {
-      transform: translateX(50px);
-    }
+.contact-form button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #00aaff;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #008ecc;
+}
+
+/* 圖片 */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+/* 特效 */
+.select-none {
+  user-select: none;
+}
+
+.evasion {
+  transition: transform 0.3s ease;
+}
+
+.evasion:hover {
+  transform: translateX(60px);
+}
+
   </style>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
